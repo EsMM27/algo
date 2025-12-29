@@ -224,6 +224,7 @@ public class HashTableDivideAndConquer {
         unihashTable.insert("ATU Galway Mayo"); 
         unihashTable.insert("ATU Killybegs 1"); //add 15 more sample university campuses 
         unihashTable.insert("ATU Donegal");
+        unihashTable.insert("ATU Donegal"); //duplicate
         unihashTable.insert("ATU Monaghan");
         unihashTable.insert("ATU Cavan");
         unihashTable.insert("ATU Athlone");
@@ -246,8 +247,7 @@ public class HashTableDivideAndConquer {
  
         // Search for a key 
         System.out.println("Is 'ATU Sligo' in the table? " + unihashTable.search("ATU Sligo"));  // true 
-        System.out.println("Is 'ATU Dundalk' in the table? " + unihashTable.search("ATU Dundalk"));  
-// false 
+        System.out.println("Is 'ATU Edgar' in the table? " + unihashTable.search("ATU Edgar"));  // false 
  
         // Delete a key 
         unihashTable.delete("ATU Galway Mayo"); 
